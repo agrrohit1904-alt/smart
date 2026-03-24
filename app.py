@@ -6,7 +6,7 @@ import numpy as np
 # Load the model once and cache it for speed
 @st.cache_resource
 def load_yolo():
-    return YOLO('yolov8n.pt')
+    return YOLO('c.pt')
 
 model = load_yolo()
 
